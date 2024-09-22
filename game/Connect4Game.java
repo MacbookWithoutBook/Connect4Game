@@ -8,6 +8,17 @@ import player.Player;
  *
  * <p>It handles player turns, checks for win/draw conditions, and provides interfaces with players
  * to receive moves.</p>
+ * 
+ * <p><b>Example usage:</b></p>
+ * <pre>
+ * {@code
+ *     // See PlayerFactory to create players, then:
+ *     
+ *     // Start a Connect 4 game with players created:
+ *     Connect4Game game = new Connect4Game(player1, player2);
+ *     game.play();
+ * }
+ * </pre>
  *
  * @author Dongzhi Zhang (dongzhiz), Peitong Zhu (peitongz)
  * @version 1.0
